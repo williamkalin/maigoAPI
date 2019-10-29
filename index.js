@@ -6,7 +6,7 @@ const Grid = require('gridfs-stream');
 const menRouter = require('./routes/men')
 const womenRouter = require('./routes/women')
 require('dotenv').config();
-
+var cors = require('cors');
 
 // I'll mabye need methodOverride
 
@@ -22,7 +22,7 @@ const options = {
 const app = express();
 app.use(express.static(__dirname + "/"));
 app.use(bodyParser.json());
-
+app.use(cors());
 
 const mongoURI = process.env.MONGODB_KEY;
 
