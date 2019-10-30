@@ -8,4 +8,4 @@ This is the API for the webshop MAIGO which I've made for fun and can be found h
 * Express
 
 
- [Live verison of website](https://maigo.netlify.com/)
+ [Live version of website](https://maigo.netlify.com/)
